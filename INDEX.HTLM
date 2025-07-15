@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Administración Hotelera y Gastronómica - Malla Interactiva</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Administración Hotelera y Gastronómica</h1>
+  </header>
+
+  <main>
+    <div class="malla-container">
+      <!-- Aquí cada semestre con sus ramos -->
+      <section class="semestre" data-semestre="1">
+        <h2>1° Semestre</h2>
+        <div class="ramos">
+          <div class="ramo" data-nombre="Administración I" data-creditos="6" data-prerequisito="" tabindex="0" title="6 créditos">
+            Administración I
+          </div>
+          <div class="ramo" data-nombre="Inglés Inicial" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Inglés Inicial
+          </div>
+          <div class="ramo" data-nombre="Matemáticas" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Matemáticas
+          </div>
+          <div class="ramo" data-nombre="Higiene y Manipulación de Alimentos" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Higiene y Manipulación de Alimentos
+          </div>
+          <div class="ramo" data-nombre="Introducción a la Hotelería I" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Introducción a la Hotelería I
+          </div>
+          <div class="ramo" data-nombre="Taller de Autorregulación" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Taller de Autorregulación
+          </div>
+          <div class="ramo" data-nombre="Introducción a la Restauración y Servicio" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Introducción a la Restauración y Servicio
+          </div>
+        </div>
+      </section>
+
+      <section class="semestre" data-semestre="2">
+        <h2>2° Semestre</h2>
+        <div class="ramos">
+          <div class="ramo" data-nombre="Administración II" data-creditos="6" data-prerequisito="Administración I" tabindex="0" title="6 créditos">
+            Administración II
+          </div>
+          <div class="ramo" data-nombre="Inglés I" data-creditos="4" data-prerequisito="Inglés Inicial" tabindex="0" title="4 créditos">
+            Inglés I
+          </div>
+          <div class="ramo" data-nombre="Contabilidad Financiera" data-creditos="4" data-prerequisito="Matemáticas" tabindex="0" title="4 créditos">
+            Contabilidad Financiera
+          </div>
+          <div class="ramo" data-nombre="Química de los Alimentos" data-creditos="4" data-prerequisito="Higiene y Manipulación de Alimentos" tabindex="0" title="4 créditos">
+            Química de los Alimentos
+          </div>
+          <div class="ramo" data-nombre="Turismo" data-creditos="4" data-prerequisito="Introducción a la Hotelería I" tabindex="0" title="4 créditos">
+            Turismo
+          </div>
+          <div class="ramo" data-nombre="Comunicación y Tecnologías de la Información" data-creditos="4" data-prerequisito="Taller de Autorregulación" tabindex="0" title="4 créditos">
+            Comunicación y Tecnologías de la Información
+          </div>
+          <div class="ramo" data-nombre="Cocina Institucional" data-creditos="4" data-prerequisito="Introducción a la Restauración y Servicio" tabindex="0" title="4 créditos">
+            Cocina Institucional
+          </div>
+        </div>
+      </section>
+
+      <section class="semestre" data-semestre="3">
+        <h2>3° Semestre</h2>
+        <div class="ramos">
+          <div class="ramo" data-nombre="Gestión de Alojamientos" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Gestión de Alojamientos
+          </div>
+          <div class="ramo" data-nombre="Inglés II" data-creditos="4" data-prerequisito="Inglés I" tabindex="0" title="4 créditos">
+            Inglés II
+          </div>
+          <div class="ramo" data-nombre="Contabilidad de Costos" data-creditos="4" data-prerequisito="Contabilidad Financiera" tabindex="0" title="4 créditos">
+            Contabilidad de Costos
+          </div>
+          <div class="ramo" data-nombre="Gestión de Personas" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Gestión de Personas
+          </div>
+          <div class="ramo" data-nombre="Economía" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Economía
+          </div>
+          <div class="ramo" data-nombre="Taller de Integración de Primer Ciclo" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Taller de Integración de Primer Ciclo
+          </div>
+          <div class="ramo" data-nombre="Cocina Chilena y Regional" data-creditos="4" data-prerequisito="Cocina Institucional" tabindex="0" title="4 créditos">
+            Cocina Chilena y Regional
+          </div>
+        </div>
+      </section>
+
+      <section class="semestre" data-semestre="4">
+        <h2>4° Semestre</h2>
+        <div class="ramos">
+          <div class="ramo" data-nombre="Gestión de Reservas y Recepción" data-creditos="4" data-prerequisito="Gestión de Alojamientos" tabindex="0" title="4 créditos">
+            Gestión de Reservas y Recepción
+          </div>
+          <div class="ramo" data-nombre="Inglés III" data-creditos="4" data-prerequisito="Inglés II" tabindex="0" title="4 créditos">
+            Inglés III
+          </div>
+          <div class="ramo" data-nombre="Finanzas" data-creditos="4" data-prerequisito="Contabilidad de Costos" tabindex="0" title="4 créditos">
+            Finanzas
+          </div>
+          <div class="ramo" data-nombre="Marketing de la Hospitalidad" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Marketing de la Hospitalidad
+          </div>
+          <div class="ramo" data-nombre="Aspectos Legales de la Industria de la Hospitalidad" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Aspectos Legales de la Industria de la Hospitalidad
+          </div>
+          <div class="ramo" data-nombre="Estadística Aplicada" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Estadística Aplicada
+          </div>
+          <div class="ramo" data-nombre="Cocina Internacional" data-creditos="4" data-prerequisito="Cocina Chilena y Regional" tabindex="0" title="4 créditos">
+            Cocina Internacional
+          </div>
+        </div>
+      </section>
+
+      <section class="semestre" data-semestre="5">
+        <h2>5° Semestre</h2>
+        <div class="ramos">
+          <div class="ramo" data-nombre="Administración de la Producción y Operaciones" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Administración de la Producción y Operaciones
+          </div>
+          <div class="ramo" data-nombre="Inglés IV" data-creditos="4" data-prerequisito="Inglés III" tabindex="0" title="4 créditos">
+            Inglés IV
+          </div>
+          <div class="ramo" data-nombre="Taller de Emprendimiento" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Taller de Emprendimiento
+          </div>
+          <div class="ramo" data-nombre="Nutrición" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Nutrición
+          </div>
+          <div class="ramo" data-nombre="Gestión de Eventos y Banquetes" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Gestión de Eventos y Banquetes
+          </div>
+          <div class="ramo" data-nombre="Taller de Integración de Perfil de Egreso UV I" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Taller de Integración de Perfil de Egreso UV I
+          </div>
+          <div class="ramo" data-nombre="Enología, Bar y Servicio" data-creditos="4" data-prerequisito="Cocina Internacional" tabindex="0" title="4 créditos">
+            Enología, Bar y Servicio
+          </div>
+        </div>
+      </section>
+
+      <section class="semestre" data-semestre="6">
+        <h2>6° Semestre</h2>
+        <div class="ramos">
+          <div class="ramo" data-nombre="Gestión de Alimentos y Bebidas" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Gestión de Alimentos y Bebidas
+          </div>
+          <div class="ramo" data-nombre="Inglés V" data-creditos="4" data-prerequisito="Inglés IV" tabindex="0" title="4 créditos">
+            Inglés V
+          </div>
+          <div class="ramo" data-nombre="Gestión de Operaciones Hoteleras" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Gestión de Operaciones Hoteleras
+          </div>
+          <div class="ramo" data-nombre="Gestión de Calidad en Empresas de la Hospitalidad" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Gestión de Calidad en Empresas de la Hospitalidad
+          </div>
+          <div class="ramo" data-nombre="Taller de Integración Perfil de Egreso UV II" data-creditos="4" data-prerequisito="Taller de Integración de Perfil de Egreso UV I" tabindex="0" title="4 créditos">
+            Taller de Integración Perfil de Egreso UV II
+          </div>
+          <div class="ramo" data-nombre="Pastelería" data-creditos="4" data-prerequisito="Enología, Bar y Servicio" tabindex="0" title="4 créditos">
+            Pastelería
+          </div>
+          <div class="ramo" data-nombre="Práctica Intermedia" data-creditos="4" data-prerequisito="" tabindex="0" title="4 créditos">
+            Práctica Intermedia
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Creado por Antonella Díaz</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
